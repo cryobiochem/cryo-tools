@@ -1,9 +1,6 @@
-streamlit
-numpy
-matplotlib.animation
-matplotlib.pyplot
-matplotlib
-pandas
-io
-PIL
-
+streamlit==1.32.0
+numpy==1.24.3
+matplotlib==3.7.1
+pandas==2.0.1
+Pillow==9.5.0
+scipy==1.10.1
