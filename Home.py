@@ -52,7 +52,7 @@ nav = st.navigation(
                      st.Page("pages/11_Storage_Temperature.py", title="Storage Temperature Stability Analyzer", icon=":material/add_circle:")
                     ],
          "About":    [
-                      st.Page("1_About.py", title="The author", icon=":material/add_circle:")
+                      st.Page("pages/1_About.py", title="The author", icon=":material/add_circle:")
                      ]
 
     })
