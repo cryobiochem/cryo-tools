@@ -6,12 +6,6 @@ import pandas as pd
 import io
 from PIL import Image
 
-st.set_page_config(
-    page_title="Cell Osmolarity Response - Cryopreservation Research Hub",
-    page_icon="❄️",
-    layout="wide"
-)
-
 st.title("Cell Osmolarity Response Simulator")
 
 st.markdown("""
