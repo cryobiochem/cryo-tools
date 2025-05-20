@@ -1,11 +1,5 @@
 import streamlit as st
 
-st.set_page_config(
-    page_title="About - Cryopreservation Research Hub",
-    page_icon="❄️",
-    layout="wide"
-)
-
 st.title("About Me and My Research")
 
 # Create columns for profile and bio
