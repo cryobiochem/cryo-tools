@@ -4,12 +4,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from matplotlib import cm
 
-st.set_page_config(
-    page_title="Cryoprotectant Toxicity Analyzer - Cryopreservation Research Hub",
-    page_icon="❄️",
-    layout="wide"
-)
-
 st.title("Cryoprotectant Toxicity Analyzer")
 
 st.markdown("""
