@@ -36,6 +36,28 @@ Navigate through the sidebar to access various interactive tools:
 Select a tool from the sidebar to begin exploring the interactive simulations and calculators.
 """)
 
+# Multipage sidebar
+nav = st.navigation(
+    {
+        "Tools":    [
+                     st.Page("2_Nucleation_Energy_Barrier.py", title="Nucleation Energy Barrier Calculator", icon=":material/add_circle:"),
+                     st.Page("3_Cell_Osmolarity_Response.py", title="Cell Osmolarity Response Simulator", icon=":material/add_circle:"),
+                     st.Page("4_Cooling_Rate_Optimizer.py", title="Cooling Rate Optimizer", icon=":material/add_circle:"),
+                     st.Page("5_Cryoprotectant_Toxicity.py", title="Cryoprotectant Toxicity Analyzer", icon=":material/add_circle:"),
+                     st.Page("6_Vitrification_Probability.py", title="Vitrification Probability Calculator", icon=":material/add_circle:"),
+                     st.Page("7_Thermal_Stress_Simulator.py", title="Thermal Stress Simulator", icon=":material/add_circle:"),
+                     st.Page("8_Ice_Crystal_Growth.py", title="Ice Crystal Growth Visualizer", icon=":material/add_circle:"),
+                     st.Page("9_Membrane_Permeability.py", title="Membrane Permeability Modeler", icon=":material/add_circle:"),
+                     st.Page("10_Warming_Protocol.py", title="Warming Protocol Designer", icon=":material/add_circle:"),
+                     st.Page("11_Storage_Temperature.py", title="Storage Temperature Stability Analyzer", icon=":material/add_circle:")
+                    ],
+         "About":    [
+                      st.Page("1_About.py", title="The author", icon=":material/add_circle:")
+                     ]
+
+    })
+nav.run()
+
 st.image("https://placeholder.svg?height=300&width=700", caption="Cryopreservation Research")
 
 # Footer
