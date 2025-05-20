@@ -4,12 +4,6 @@ import matplotlib.pyplot as plt
 from matplotlib import cm
 import pandas as pd
 
-st.set_page_config(
-    page_title="Warming Protocol Designer - Cryopreservation Research Hub",
-    page_icon="❄️",
-    layout="wide"
-)
-
 st.title("Warming Protocol Designer")
 
 st.markdown("""
