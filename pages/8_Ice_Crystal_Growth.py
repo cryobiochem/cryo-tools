@@ -7,12 +7,6 @@ from matplotlib.animation import FuncAnimation
 import io
 from PIL import Image
 
-st.set_page_config(
-    page_title="Ice Crystal Growth Visualizer - Cryopreservation Research Hub",
-    page_icon="❄️",
-    layout="wide"
-)
-
 st.title("Ice Crystal Growth Visualizer")
 
 st.markdown("""
