@@ -2,7 +2,6 @@ streamlit
 numpy
 matplotlib.animation
 matplotlib.pyplot
-matplotlib
 pandas
 io
 PIL
