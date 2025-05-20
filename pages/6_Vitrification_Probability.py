@@ -4,12 +4,6 @@ import matplotlib.pyplot as plt
 from matplotlib import cm
 import pandas as pd
 
-st.set_page_config(
-    page_title="Vitrification Probability Calculator - Cryopreservation Research Hub",
-    page_icon="❄️",
-    layout="wide"
-)
-
 st.title("Vitrification Probability Calculator")
 
 st.markdown("""
